@@ -62,7 +62,7 @@ public class FizzBuzzTest {
 
         String expect = new FizzBuzz().count(seq);
 
-        assertEquals("WhizzFizz", expect);
+        assertEquals("FizzWhizz", expect);
     }
 
     @Test
@@ -72,7 +72,7 @@ public class FizzBuzzTest {
 
         String expect = new FizzBuzz().count(seq);
 
-        assertEquals("WhizzBuzz", expect);
+        assertEquals("BuzzWhizz", expect);
     }
 
     @Test
@@ -82,6 +82,6 @@ public class FizzBuzzTest {
 
         String expect = new FizzBuzz().count(seq);
 
-        assertEquals("WhizzBuzzFizz", expect);
+        assertEquals("BuzzFizzWhizz", expect);
     }
 }
