@@ -4,7 +4,9 @@ public class FizzBuzz {
 
     public String count(int seq)
     {
-        if (seq % 5 == 0 && seq % 3 == 0)
+        if (seq % 5 == 0 && seq % 3 == 0  && seq % 7 == 0)
+            return String.valueOf("WhizzBuzzFizz");
+        else if (seq % 5 == 0 && seq % 3 == 0)
             return String.valueOf("FizzBuzz");
         else if (seq % 3 == 0 && seq % 7 == 0)
             return String.valueOf("WhizzFizz");

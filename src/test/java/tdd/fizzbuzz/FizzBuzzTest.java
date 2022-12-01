@@ -74,4 +74,14 @@ public class FizzBuzzTest {
 
         assertEquals("WhizzBuzz", expect);
     }
+
+    @Test
+    void should_get_number_when_count_is_five_and_seven_and_three_multiple()
+    {
+        int seq = 105;
+
+        String expect = new FizzBuzz().count(seq);
+
+        assertEquals("WhizzBuzzFizz", expect);
+    }
 }
